@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Balkan United RolePlay - Iskusite vrhunsku avanturu na našem RP/DM serveru sa redovnim ažuriranjima i visokim performansama.">
+    <meta name="keywords" content="Balkan United, RolePlay, RP Server, Gaming, Donacije, Blog">
+    <meta name="author" content="Psycho006">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Balkan United RolePlay - Dobrodošli">
+    <meta property="og:description" content="Pridružite se našem jedinstvenom RP serveru i doživite avanturu sa najboljim performansama i aktivnom zajednicom.">
+    <meta property="og:image" content="https://i.ibb.co/VQPQ8yH/logo-2-png.png">
+    <meta property="og:url" content="https://www.balkanunited.com">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/favicon" href="/images/favicon.ico">
+    <title>Balkan United Roleplay - Pocetna</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0d0d0d;
+            color: #76ff03;
+        }
+
+        header {
+            background-color: #0d0d0d;
+            color: #76ff03;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 2px solid #76ff03;
+        }
+
+        header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #76ff03;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #bfff4f;
+        }
+
+        .banner {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.ibb.co/LtZL4qV/fivem-zhg48vbp6zfjz15i.jpg') no-repeat center center/cover;
+            color: #76ff03;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #76ff03;
+            color: #0d0d0d;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #64dd17;
+            transform: scale(1.05);
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px 20px;
+            background-color: #111;
+        }
+
+        .feature {
+            text-align: center;
+            background-color: #0d0d0d;
+            color: #76ff03;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature h4 {
+            color: #bfff4f;
+            margin-bottom: 10px;
+        }
+
+        #blog h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #bfff4f;
+            text-transform: uppercase;
+        }
+
+        #blog .blog-post {
+            background-color: #0d0d0d;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+            color: #76ff03;
+        }
+
+        #blog .blog-post:hover {
+            transform: scale(1.05);
+            background-color: #111;
+        }
+
+        #blog .blog-post h3 {
+            color: #bfff4f;
+            margin-bottom: 10px;
+        }
+
+        #blog .blog-post a {
+            color: #76ff03;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        #blog .blog-post a:hover {
+            color: #bfff4f;
+        }
+
+        @media (max-width: 768px) {
+            #blog .blog-post {
+                font-size: 0.9rem;
+            }
+        }
+
+        footer {
+            background-color: #0d0d0d;
+            color: #76ff03;
+            text-align: center;
+            padding: 20px 10px;
+            border-top: 2px solid #76ff03;
+        }
+
+        footer a {
+            color: #bfff4f;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .announcement {
+            background-color: #bfff4f;
+            color: #0d0d0d;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .announcement button {
+            background: none;
+            border: none;
+            color: #0d0d0d;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .announcement button:hover {
+            color: #000;
+        }
+
+        @media (max-width: 768px) {
+            .banner h1 {
+                font-size: 2rem;
+            }
+
+            .banner p {
+                font-size: 1rem;
+            }
+        }
+        #donations h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #bfff4f;
+            text-transform: uppercase;
+        }
+
+        #donations .feature {
+            text-align: center;
+            background-color: #0d0d0d;
+            color: #76ff03;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        #donations .feature:hover {
+            transform: scale(1.05);
+            background-color: #111;
+        }
+
+        #donations .feature h4 {
+            color: #bfff4f;
+            margin-bottom: 10px;
+        }
+
+        #donations .btn {
+            margin-top: 15px;
+            display: inline-block;
+        }
+    </style>
+
+    <script>
+        function closeAnnouncement() {
+            document.getElementById("announcement").style.display = "none";
+        }
+    </script>
+
+</head>
+<body>
+    <div id="announcement" class="announcement">
+        <span>🌟 Novi Update! Dosao je novi update naseg sajta, uskoro dolazi i server :)!</span>
+        <button onclick="closeAnnouncement()">✖</button>
+    </div>
+
+    <header>
+        <img src="https://i.ibb.co/VQPQ8yH/logo-2-png.png" alt="Balkan United Logo">
+        <h1>Dobrodosli na Balkan United RolePlay</h1>
+    </header>
+
+    <nav>
+        <a href="#">Pocetna</a>
+        <a href="/about.html">O Nama</a>
+        <a href="https://guns.lol/balkanunited">Linkovi</a>
+        <a href="#blog">Blog (uskoro)</a>
+        <a href="#dw">Downloads (uskoro)</a>
+    </nav>
+
+    <main>
+        <div class="banner">
+            <h1>Balkan United</h1>
+            <p>Doživite vrhunsku avanturu na našem Balkan United RP/DM serveru.</p>
+            <a href="/about.html" class="btn">Procitaj Vise</a>
+        </div>
+
+        <section id="features" class="features" data-aos="fade-up">
+            <div class="feature" data-aos="slide-right">
+                <h4>Redovni Updejti</h4>
+                <p>Uživajte u ekskluzivnim i redovno ažuriranim funkcijama napravljenim za jedinstveno iskustvo.</p>
+            </div>
+            <div class="feature" data-aos="slide-left">
+                <h4>Visoke performanse</h4>
+                <p>Igrajte sa glatkim i stabilnim performansama na našim vrhunskim serverima.</p>
+            </div>
+            <div class="feature" data-aos="zoom-in">
+                <h4>Mi slusamo predloge zajednice</h4>
+                <p>Predložite nam sta bi hteli novo da vidite na serveru, rado ćemo vas saslusati!.</p>
+            </div>
+        </section>
+
+    <section id="donations" style="background-color: #111; padding: 40px 20px; color: #76ff03;">
+        <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px; color: #bfff4f; text-transform: uppercase;">
+            Donatorski Paketi
+        </h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+            <div data-aos="slide-right" class="feature">
+                <h4>Bronzani Paket</h4>
+                <p>Donacija od 5€ donosi vam ekskluzivne privilegije na serveru!</p>
+                <a href="#" class="btn">USKORO</a>
+            </div>
+            <div data-aos="zoom-in" class="feature">
+                <h4>Srebrni Paket</h4>
+                <p>Donacija od 10€ sa dodatnim pogodnostima na serveru!</p>
+                <a href="#" class="btn">USKORO</a>
+            </div>
+            <div data-aos="slide-left" class="feature">
+                <h4>Zlatni Paket</h4>
+                <p>Donacija od 20€ pruža vam maksimalne beneficije i podršku serveru!</p>
+                <a href="#" class="btn">USKORO</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="staff" data-aos="fade-in" style="background-color: #111; padding: 40px 20px; color: #76ff03;"> 
+        <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px; color: #bfff4f; text-transform: uppercase;">
+            Staff Tim
+        </h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+            <!-- Član 1 -->
+            <div data-aos="flip-left" style="text-align: center; background-color: #0d0d0d; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                <img src="https://i.ibb.co/VQPQ8yH/logo-2-png.png" alt="Osnivač" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 15px;">
+                <h4 style="color: #bfff4f; margin-bottom: 10px;">Psycho006</h4>
+                <p style="line-height: 1.6;">Osnivač i glavni developer</p>
+            </div>
+            <!-- Član 2 -->
+            <div data-aos="flip-right" style="text-align: center; background-color: #0d0d0d; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                <img src="https://i.ibb.co/VQPQ8yH/logo-2-png.png" alt="Osnivač" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 15px;">
+                <h4 style="color: #bfff4f; margin-bottom: 10px;">PoKe</h4>
+                <p style="line-height: 1.6;">Osnivač</p>
+            </div>
+            <!-- Član 3 
+            <div style="text-align: center; background-color: #0d0d0d; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                <img src="https://i.ibb.co/VQPQ8yH/logo-2-png.png" alt="Admin" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 15px;">
+                <h4 style="color: #bfff4f; margin-bottom: 10px;">Alex</h4>
+                <p style="line-height: 1.6;">Administrator servera</p>
+            </div> -->
+        </div>
+    </section>    
+    
+
+    <section id="blog" class="blog" style="padding: 40px 20px; background-color: #111; color: #76ff03;">
+        <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px; color: #bfff4f; text-transform: uppercase;">
+            Zadnje Novosti
+        </h2>
+        <div data-aos="fade-up" style="max-width: 800px; margin: 0 auto;">
+            <div class="news-item" style="margin-bottom: 30px; padding: 20px; background-color: #0d0d0d; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.3s;">
+                <h3 style="color: #bfff4f; margin-bottom: 10px;">Sajt Updejtovan</h3>
+                <p style="line-height: 1.6;">Izbacili smo nov updejt sajta koji donosi bolje performanse i lepši dizajn za sve korisnike. Proverite šta je novo!</p>
+                <a href="https://dc.gg/balkanunited" style="color: #76ff03; text-decoration: none; font-weight: bold;">Procitaj više &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Balkan United by Psycho006. All Rights Reserved. | <a href="#">Privacy Policy</a></p>
+        <p>Designed with ❤️ by <a href="https://markovicdesigns.carrd.co/">MarkovicDesigns</a></p>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+        });
+    </script>
+</body>
+</html>

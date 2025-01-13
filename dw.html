@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Download files from our simple and modern library-style page.">
+  <meta name="keywords" content="download, files, free downloads, library, software">
+  <meta name="author" content="Your Name">
+  <title>Download Library - Modern File Downloads</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1c1c1c;
+      padding: 40px;
+      text-align: center;
+    }
+    header h1 {
+      color: #32CD32; /* Green color */
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .container {
+      width: 90%;
+      margin: 40px auto;
+      text-align: center;
+    }
+    .download-section {
+      background-color: #222;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    .download-section h2 {
+      color: #32CD32;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .download-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .download-list li {
+      background-color: #333;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: background-color 0.3s;
+    }
+    .download-list li:hover {
+      background-color: #444;
+    }
+    .download-button {
+      background-color: #32CD32;
+      color: black;
+      font-size: 1.4rem;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    .download-button:hover {
+      background-color: #228B22; /* Darker green on hover */
+    }
+    footer {
+      background-color: #1c1c1c;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer p {
+      color: #ccc;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Download Library</h1>
+  </header>
+
+  <div class="container">
+    <div class="download-section">
+      <h2>Available Downloads</h2>
+      <p>Browse through our library and download the files you need. Click on the download button to get the file.</p>
+      
+      <!-- List of Download Links -->
+      <ul class="download-list">
+        <li>
+          <strong style="font-size: 1.5rem;">File 1: Example Document</strong>
+          <br>
+          <a href="path_to_file_1.zip" class="download-button" download>Download File 1</a>
+        </li>
+        <li>
+          <strong style="font-size: 1.5rem;">File 2: Example PDF</strong>
+          <br>
+          <a href="path_to_file_2.pdf" class="download-button" download>Download File 2</a>
+        </li>
+        <li>
+          <strong style="font-size: 1.5rem;">File 3: Example Image</strong>
+          <br>
+          <a href="path_to_file_3.png" class="download-button" download>Download Image</a>
+        </li>
+        <!-- Add more files as needed -->
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Your Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
